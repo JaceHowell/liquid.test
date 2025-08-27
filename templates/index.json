@@ -1,11 +1,69 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "first-section": {
+      "type": "first-section",
+      "blocks": {
+        "card_69Qa6h": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/flatlay-of-jade-face-roller-laying-on-a-grey-stone.jpg",
+            "text": "1",
+            "url": "shopify://collections/hydrogen"
+          }
+        },
+        "card_MHng6G": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
+            "text": "2",
+            "url": "shopify://collections/hydrogen"
+          }
+        },
+        "card_AcBwdG": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/kids-beanie.jpg",
+            "text": "3",
+            "url": "shopify://collections/hydrogen"
+          }
+        },
+        "card_nqkK9h": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/female-fashion-model-poses-in-city-street.jpg",
+            "text": "4",
+            "url": "shopify://collections/hydrogen"
+          }
+        }
+      },
+      "block_order": [
+        "card_69Qa6h",
+        "card_MHng6G",
+        "card_AcBwdG",
+        "card_nqkK9h"
+      ],
+      "settings": {
+        "text": ""
+      }
+    },
     "6a3bb789-ce10-45f5-ae67-e2063ef8c76b": {
       "type": "image-banner",
       "blocks": {
         "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-0": {
           "type": "heading",
-          "settings": { "heading": "Generated test data", "heading_size": "h1" }
+          "settings": {
+            "heading": "Generated test data",
+            "heading_size": "h1"
+          }
         },
         "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-1": {
           "type": "text",
@@ -46,12 +104,6 @@
         "show_text_below": true
       }
     },
-    "first-section": {
-        "type": "first-section",
-        "settings": {
-
-        }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -84,7 +136,10 @@
       "blocks": {
         "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-0": {
           "type": "heading",
-          "settings": { "heading": "Stay hydrated", "heading_size": "h1" }
+          "settings": {
+            "heading": "Stay hydrated",
+            "heading_size": "h1"
+          }
         },
         "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-1": {
           "type": "text",
@@ -126,11 +181,15 @@
       "blocks": {
         "template--18309637636369__38cdf60f-e431-43b5-aac3-7e6215447d67-1680164898782d94ce-0": {
           "type": "featured_collection",
-          "settings": { "collection": "hydrogen" }
+          "settings": {
+            "collection": "hydrogen"
+          }
         },
         "template--18309637636369__38cdf60f-e431-43b5-aac3-7e6215447d67-1680164898782d94ce-1": {
           "type": "featured_collection",
-          "settings": { "collection": "automated-collection" }
+          "settings": {
+            "collection": "automated-collection"
+          }
         }
       },
       "block_order": [
@@ -152,8 +211,8 @@
     }
   },
   "order": [
-    "6a3bb789-ce10-45f5-ae67-e2063ef8c76b",
     "first-section",
+    "6a3bb789-ce10-45f5-ae67-e2063ef8c76b",
     "featured_collection",
     "f1552b18-6017-4231-810d-74e61da22c37",
     "38cdf60f-e431-43b5-aac3-7e6215447d67"
