@@ -1,0 +1,52 @@
+<h1>{{ section.settings.text }}</h1>
+
+{% for block in section.blocks %}
+  <div class="collection-card">
+    <img
+      src="{{ block.settings.image |  img_url:'master' }}"
+      width="100px"
+      height="100px" />
+    <p class="text-red">
+      {{ block.settings.text }}</p>
+    <a href="{{ block.settings.url }}">Shop Now</a>
+  </div>
+{% endfor %}
+
+{% schema %}
+  {
+    "name": "First section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "text",
+        "label": "Heading"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Default first section"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Main page categories",
+        "type": "card",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Collection image"
+          }, {
+            "type": "text",
+            "id": "text",
+            "label": "Collection title"
+          }, {
+            "type": "url",
+            "id": "url",
+            "label": "Link"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

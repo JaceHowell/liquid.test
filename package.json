@@ -1,0 +1,10 @@
+{
+   "scripts": {
+    "watch": "npx tailwindcss -i ./tw-input.css -o ./assets/tw-output.css --minify --watch",
+    "store": "shopify theme dev --store=testgabagool"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.12",
+    "tailwindcss": "^4.1.12"
+  }
+}
